@@ -19,3 +19,27 @@ a:hover {
   color: gray;
   border: 5px solid gray;
 }
+
+.flexbox-info {
+  display: flex;
+  flex-direction:row-reverse;
+  flex-wrap:wrap;
+}
+.flexbox-info h2 {
+  font-size: xx-large;
+  margin: 5px;
+  border-radius: 1em;
+}
+.flexbox-info p {
+  font-size: x-large;
+  margin: 5px;
+  border-radius: 1em;
+}
+.flexbox-info section {
+  margin: 1em;
+  border: 5px solid black;
+  border-radius: 3em;
+}
+section:hover, p:hover {
+  background-color: white;
+}
